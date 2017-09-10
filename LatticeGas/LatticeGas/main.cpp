@@ -72,7 +72,6 @@ void Plot(void) {
 				int sum = 0;
 				for (int d = 0; d < 4; d++) sum += board[i][j][d];
 				Float c = sum / 4.0;
-				//cout << c << endl;
 				glColor3f(c, c, c);
 				glVertex2f(x, y);
 			}
@@ -93,7 +92,7 @@ void Init(void) {
 			else mask[i][j] = AIR;
 			if (mask[i][j] == AIR) {
 				for (int d = 0; d < 4; d++) {
-					if (random(1, 3) == 1) board[i][j][d] = true;
+					if (random(1, 2) == 1) board[i][j][d] = true;
 					else board[i][j][d] = false;
 				}
 			}
