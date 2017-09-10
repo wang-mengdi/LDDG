@@ -4,3 +4,6 @@ Debug/*
 .idea/*
 LatticeGas/x64/*
 LatticeGas/.vs/*
+LatticeGas/Debug/*
+LatticeGas/LatticeGas/Debug/*
+LatticeGas/LatticeGas/x64/*
